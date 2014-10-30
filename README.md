@@ -21,7 +21,7 @@ Having cloned the repo you'll find the fcserver app for your os in [this folder]
 
 - colorWipe : Fade all pixels to specified color. Pixel definition not required
 ```
-payload example : {"mode" : "colorWipe", "red" : 255 , "blue" : 0, "green" : 0}
+payload example : {"mode" : "colorWipe", "stripLength" : 64 , "red" : 255 , "blue" : 0, "green" : 0}
 
 ```
 - start : Initialize strip to all pixels off (run this first to start up strip) can be used whenever

@@ -20,7 +20,27 @@ Having cloned the repo you'll find the fcserver app for your os in [this folder]
 
 
 - colorWipe : Fade all pixels to specified color. Pixel definition not required
+```
+payload example : {"mode" : "colorWipe", "red" : 255 , "blue" : 0, "green" : 0}
+
+```
 - start : Initialize strip to all pixels off (run this first to start up strip) can be used whenever
+```
+payload example : {"mode" : "start"}
+
+```
 - set : set a pixel. Do this multiple times to set a buffer of pixels to be written
+```
+payload example : {"mode" : "set", "pixel" : 0,  "red" : 255 , "blue" : 0, "green" : 0}
+
+```
 - write : write all pixels in the buffer after having run "set" mode. 
+```
+payload example : {"mode" : "write"}
+
+```
 - setWrite : Set pixel and immediately write it
+```
+payload example : {"mode" : "setWrite", "pixel" : 10,  "red" : 255 , "blue" : 0, "green" : 0}
+
+```

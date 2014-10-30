@@ -60,7 +60,7 @@ Plugin.prototype.onMessage = function(message){
 switch (payload.mode) {
 
     case "colorWipe":
-    for (var i = 0; i < 64; i++)
+    for (var i = 0; i < payload.stripLength; i++)
    {
 
         client.setPixel(i, payload.red, payload.green, payload.blue);

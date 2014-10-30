@@ -1,7 +1,7 @@
 meshblu-fadecandy
 =================
 
-#Gateblu plugin for Fade Candy
+Gateblu plugin for Fade Candy
 
 ##Wiring and set up
 

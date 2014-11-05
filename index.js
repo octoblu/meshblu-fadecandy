@@ -12,7 +12,7 @@ var MESSAGE_SCHEMA = {
   type: 'object',
   properties: {
     mode: {
-      type: 'integer',
+      type: 'string',
       required: true
     },
     pixel: {

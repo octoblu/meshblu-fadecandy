@@ -12,8 +12,13 @@ var MESSAGE_SCHEMA = {
   type: 'object',
   properties: {
     mode: {
-      type: 'integer',
+      type: 'string',
+      "enum" : ['start', 'colorWipe', 'set' , 'setWrite' , 'write'] ,
       required: true
+    },
+    stripLength: {
+      type: 'integer',
+      required: false
     },
     pixel: {
       type: 'integer',
@@ -133,6 +138,14 @@ switch (payload.mode) {
 
 Plugin.prototype.onConfig = function(device){
   this.setOptions(device.options||{});
+
+    for (var i = 0; i < 64; i++)
+   {
+
+        client.setPixel(i, 0, 0, 0);
+    }
+
+     client.writePixels();
 };
 
 Plugin.prototype.setOptions = function(options){

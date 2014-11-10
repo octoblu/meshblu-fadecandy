@@ -1,6 +1,6 @@
 {
-  "name": "fadecandy",
-  "version": "1.0.0",
+  "name": "meshblu-fadecandy",
+  "version": "1.0.2",
   "scripts": {
     "start": "node command.js"
   },

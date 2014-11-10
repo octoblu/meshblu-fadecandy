@@ -3,9 +3,9 @@ meshblu-fadecandy
 
 Gateblu plugin for Fade Candy
 
-![small_icon](https://raw.githubusercontent.com/octoblu/meshblu-fadecandy/master/fc2.svg)
+![small_icon](https://raw.githubusercontent.com/octoblu/meshblu-fadecandy/master/small_icon.png)
 
-![large_icon](https://raw.githubusercontent.com/octoblu/meshblu-fadecandy/master/fc.svg)
+![large_icon](https://raw.githubusercontent.com/octoblu/meshblu-fadecandy/master/large_icon.png)
 
 ##Wiring and set up
 

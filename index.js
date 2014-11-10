@@ -13,7 +13,9 @@ var MESSAGE_SCHEMA = {
   properties: {
     mode: {
       type: 'string',
+
       "enum" : ['start', 'colorWipe', 'set' , 'setWrite' , 'write'] ,
+
       required: true
     },
     stripLength: {

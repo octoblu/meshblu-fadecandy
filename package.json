@@ -1,11 +1,11 @@
 {
   "name": "meshblu-fadecandy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "start": "node command.js"
   },
   "dependencies": {
-    "skynet": "^1.1.1"
+    "meshblu": "^1.9.0"
   },
   "keywords": [
     "meshblu-connector",

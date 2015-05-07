@@ -67,6 +67,13 @@ Plugin.prototype.onMessage = function(message){
 switch (payload.mode) {
 
     case "colorWipe":
+       for (var i = 0; i < payload.stripLength; i++)
+   {
+
+        client.setPixel(i, 0, 0, 0);
+    }
+
+     client.writePixels();
     for (var i = 0; i < payload.stripLength; i++)
    {
 
@@ -121,7 +128,7 @@ switch (payload.mode) {
     break;
 
     case "start":
-     for (var i = 0; i < 64; i++)
+     for (var i = 0; i < payload.stripLength; i++)
    {
 
         client.setPixel(i, 0, 0, 0);
